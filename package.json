@@ -1,0 +1,41 @@
+{
+  "name": "claude-go",
+  "version": "0.1.0",
+  "description": "Envia mensagens agendadas para a sessão interativa do Claude Code (CLI), sem roubar o foco da janela — contorna o travamento por limite de uso.",
+  "type": "module",
+  "bin": {
+    "claude-go": "src/claude-go.js",
+    "agendar": "bin/agendar.js",
+    "cont": "bin/cont.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node scripts/smoke-host.mjs"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "cli",
+    "scheduler",
+    "conpty",
+    "node-pty",
+    "automation",
+    "windows"
+  ],
+  "author": "Diego Camara (diegocamara89)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegocamara89/claude-go.git"
+  },
+  "homepage": "https://github.com/diegocamara89/claude-go#readme",
+  "bugs": {
+    "url": "https://github.com/diegocamara89/claude-go/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@lydell/node-pty": "1.2.0-beta.12"
+  }
+}

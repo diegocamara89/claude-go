@@ -1,0 +1,8 @@
+{
+  "claudePath": "",
+  "claudeArgs": [],
+  "pollMs": 1000,
+  "idleMs": 1500,
+  "enterDelayMs": 80,
+  "maxMessageLength": 2000
+}

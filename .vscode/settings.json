@@ -1,0 +1,5 @@
+{
+  "//": "Faz a aba do terminal integrado mostrar o título definido pelo claude-go (#N · claude).",
+  "terminal.integrated.tabs.title": "${sequence}",
+  "terminal.integrated.tabs.description": "${process}"
+}
